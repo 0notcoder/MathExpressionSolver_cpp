@@ -123,11 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="expressionSolver.cpp" />
+    <ClCompile Include="ExpressionParser.cpp" />
+    <ClCompile Include="ExpressionSolver.cpp" />
+    <ClCompile Include="ExpressionUtilities.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="expressionSolver.hpp" />
+    <ClInclude Include="ExpressionParser.hpp" />
+    <ClInclude Include="ExpressionSolver.hpp" />
+    <ClInclude Include="ExpressionUtilities.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
