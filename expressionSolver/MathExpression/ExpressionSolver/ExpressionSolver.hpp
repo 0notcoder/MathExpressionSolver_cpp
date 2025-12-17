@@ -19,8 +19,6 @@ private:
 	returnCode getCurrentTokenShift(Token &token);
 	bool checkEndOfTokens() const;
 
-	static bool checkEnd(const std::string &str, const std::string::iterator &strIt);
-
 public:
 	ExpressionSolver() : currentTokenIt(tokens.begin()),
 		parser(std::make_shared<ExpressionParser>()), tokens(std::vector<Token>()) {};

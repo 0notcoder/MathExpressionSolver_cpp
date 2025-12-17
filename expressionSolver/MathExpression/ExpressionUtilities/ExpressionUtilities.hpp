@@ -23,7 +23,7 @@ public:
 	Token() = default;
 	Token(double value, tokenType type) : value(value), type(type) {};
 	Token(const Token &other) : value(other.getValue()), type(other.getType()) {};
-	Token(Token &&other) : value(other.getValue()), type(other.getType()) {};
+	Token(Token &&other) noexcept : value(other.getValue()), type(other.getType()) {};
 
 	void operator=(Token &other);
 
