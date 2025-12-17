@@ -18,24 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExpressionSolver.cpp">
+    <ClCompile Include="MathExpression\ExpressionSolver\ExpressionSolver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExpressionParser.cpp">
+    <ClCompile Include="MathExpression\ExpressionParser\ExpressionParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ExpressionUtilities.cpp">
+    <ClCompile Include="MathExpression\ExpressionUtilities\ExpressionUtilities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ExpressionSolver.hpp">
+    <ClInclude Include="MathExpression\ExpressionSolver\ExpressionSolver.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ExpressionParser.hpp">
+    <ClInclude Include="MathExpression\ExpressionParser\ExpressionParser.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ExpressionUtilities.hpp">
+    <ClInclude Include="MathExpression\ExpressionUtilities\ExpressionUtilities.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

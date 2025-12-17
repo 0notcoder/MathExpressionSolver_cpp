@@ -111,8 +111,13 @@ void ExpressionParser::oneSymbolToken() {
 
 	switch (currentSymbolType) {
 
-	case symbolType::signFirst: case symbolType::signSecond:
-		currentType = tokenType::sign;
+	case symbolType::signFirst:
+		currentType = tokenType::firstSign;
+		
+		break;
+
+	case symbolType::signSecond:
+		currentType = tokenType::secondSign;
 
 		break;
 

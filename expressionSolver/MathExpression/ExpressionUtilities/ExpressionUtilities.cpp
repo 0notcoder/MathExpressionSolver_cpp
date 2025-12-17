@@ -4,6 +4,11 @@ int getNumberFromChar(const char &symbol) {
 	return symbol - 48;
 }
 
+void Token::operator=(Token &other) {
+	this->value = other.getValue();
+	this->type = other.getType();
+}
+
 double Token::getValue() const {
 	return value;
 }
